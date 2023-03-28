@@ -1,0 +1,32 @@
+{
+  "name": "chips-landing",
+  "version": "1.0.0",
+  "description": "landing for chips seller company",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js dev=true",
+    "start": "node server.js dev=false",
+    "build": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krastbiz/chips-landing.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krastbiz/chips-landing/issues"
+  },
+  "homepage": "https://github.com/krastbiz/chips-landing#readme",
+  "dependencies": {
+    "@pbe/react-yandex-maps": "^1.2.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-responsive": "^9.0.2",
+    "styled-components": "^5.3.8"
+  }
+}
