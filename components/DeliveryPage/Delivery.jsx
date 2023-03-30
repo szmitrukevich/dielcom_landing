@@ -48,6 +48,13 @@ const Delivery = () => {
             </Container>
 
             <AsideLayout>
+                <H2>Основные направления:</H2>
+                <LinesWrapper>
+                <Line>Кабельно-проводниковая продукция</Line>
+                <Line>Электрощитовое оборудование</Line>
+                <Line>Опоры освещения и комплектующие</Line>
+                </LinesWrapper>
+
                 <H2>ЛИНЕЙКА ПОСТАВОК</H2>
                 <CardsWrapper>
                     {companyCards.map(card => (
@@ -66,7 +73,31 @@ const H1Styled = styled(H1)`
         padding-right: 0;
     `}
 `
+const LinesWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    font-family: ${({ theme }) => theme.fonts.roboto};
+    font-size: 20px;
+`
+const Line = styled.span`
+    margin-bottom: 20px;
+    position: relative;
+    margin-left: 40px;
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        background: #00d79f;
+        top: 12px;
+        left: -34px;
+    }
+    &:last-child {
+        margin-bottom: 40px;
+    }
 
+`
 const CardsWrapper = styled.div`
     margin-bottom: 250px;
     display: flex;

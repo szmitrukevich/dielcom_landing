@@ -20,7 +20,7 @@ const Contacts = () => {
 
                 <ContactsWrapper>
                     <ContactBox>
-                        <ContactTitle>Ардес</ContactTitle>
+                        <ContactTitle>Адрес</ContactTitle>
                         <ContactContent>Санкт-Петербург, ул. Учительская, д.23, литера «А», помещ. №448</ContactContent>
                     </ContactBox>
                     <ContactBox>
