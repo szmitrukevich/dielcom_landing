@@ -11,7 +11,7 @@ Documentation can be found at https://nextjs.org/docs/getting-started.
 1. Clone the repository:
 
 ```
-git clone https://github.com/krastbiz/chips-landing.git
+git clone https://github.com/szmitrukevich/dielcom_landing
 ```
 
 2. run `cd chips-landing`
